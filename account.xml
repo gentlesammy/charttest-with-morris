@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Oct 06, 2019 at 07:41 PM
+- Server version: 10.1.37-MariaDB
+- PHP Version: 7.3.1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="testing" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="account">
+                CREATE TABLE `account` (
+                  `id` int(11) NOT NULL,
+                  `year` int(11) NOT NULL,
+                  `purchase` int(11) NOT NULL,
+                  `sale` int(11) NOT NULL,
+                  `profit` int(11) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'testing'
+    -->
+    <database name="testing">
+        <!-- Table account -->
+        <table name="account">
+            <column name="id">0</column>
+            <column name="year">2010</column>
+            <column name="purchase">100000</column>
+            <column name="sale">90000</column>
+            <column name="profit">10000</column>
+        </table>
+        <table name="account">
+            <column name="id">0</column>
+            <column name="year">2011</column>
+            <column name="purchase">110000</column>
+            <column name="sale">100000</column>
+            <column name="profit">8000</column>
+        </table>
+        <table name="account">
+            <column name="id">1</column>
+            <column name="year">2010</column>
+            <column name="purchase">100000</column>
+            <column name="sale">90000</column>
+            <column name="profit">10000</column>
+        </table>
+        <table name="account">
+            <column name="id">2</column>
+            <column name="year">2011</column>
+            <column name="purchase">110000</column>
+            <column name="sale">100000</column>
+            <column name="profit">8000</column>
+        </table>
+    </database>
+</pma_xml_export>

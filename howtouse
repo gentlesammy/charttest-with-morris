@@ -1,0 +1,19 @@
+to test this one, create a db called testing 
+import account.xml into the db on phpmy admin
+then launch the index file in a browser
+
+
+
+index.php
+19 - 22
+-i use morris cdn 
+
+
+line 3 - 11
+- i pulled what i needed from the database
+- i stored it as json
+- i returned it
+
+
+line 37 - 46
+- that is morris graph initialising 
